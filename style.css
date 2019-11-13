@@ -1,0 +1,291 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************************/
+
+.wripper {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.center {
+	max-width: 1178px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container1 {
+	background-image: url(./images/backround.png);
+	width: 100%;
+	max-width: 1440px;
+	height: 100vh;
+	max-height: 855px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container1 header div {
+	display: inline-block;
+	width: 40%;
+	margin-top: 60px;
+}
+
+.container1 header div:nth-child(2) {
+	width: 15%;
+	margin: 30px 10px;
+
+}
+
+.container1 header div ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container1 header div ul li {
+	display: inline;
+}
+
+.container1 header div ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 5px 10px;
+	background-color: rgb(0);
+	box-shadow: 0 0 10px #343434;
+}
+
+.container1 header div ul li:hover a {
+	padding: 5px 10px;
+	background-color: #343434;
+	color: #ff7200;
+	border-radius: 5px;
+}
+
+.container1 header .logo {
+	height: 80px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.container1 header .logo h3 {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 7.5vh;
+}
+
+.container1 header .logo p {
+	font-size: 12px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.container1 .cetner-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+}
+
+.container1 .cetner-text h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 72px;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.container1 .cetner-text div ul {
+	color: #ffffff;
+}
+
+.container1 .cetner-text div ul li {
+	display: inline;
+}
+
+.container1 .cetner-text .center-menu ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.container1 .cetner-text .center-menu ul li:hover a {
+	color: #ff7200;
+}
+
+.container1 .center .cetner-text .button1 {
+	position: relative;
+	top: 57px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	padding: 15px 35px 15px;
+	border: 1px solid #ffffff;
+} 
+
+.container1 .center .cetner-text .button1:hover { 
+	box-shadow: 0 0 10px #969696;
+}
+
+.container1 .center .cetner-text .button1:active {
+	box-shadow: 0 0 10px #505050;
+}
+
+.container2 {
+	height: 1080px;
+	text-align: center;
+}
+
+.container2 .center .content .content1-text h2 {
+	padding-top: 80px;
+	font-size: 36px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	line-height: 1.194;
+}
+
+.container2 .center .content .content1-text p {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	line-height: 1.429;
+	padding-bottom: 58px;
+}
+
+.container2 .center .content .content1-text .line,
+.container2 .center .content .content2-text .line {
+	background-color: rgb(102, 102, 102);
+	width: 170px;
+	height: 2px;
+} 
+
+.container2 .center .content div img {
+	width: 95%;
+	border-radius: 50%;
+}
+
+.container2 .center .content .portrait h5 {
+	padding-top: 35px;
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	line-height: 2.688;
+	font-weight: 400;
+}
+
+.container2 .center .content .portrait h5 span {
+	color: #ff7200;
+}
+
+.container2 .center .content .portrait p {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	line-height: 1.375;
+	font-weight: 400;
+	text-align: start;
+}
+
+.container2 .center .content .portrait .block-svg {
+	padding: 0 20px 0 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container2 .center .content .portrait .block-svg svg {
+	padding: 10px;
+	background: #f0f0f0;
+	border-radius: 50%;
+	color: #666666;
+	width: 35px;
+	height: 35px;
+}
+
+.container2 .center .content .portrait .block-svg svg:hover {
+	background: #ff7200;
+	color: #ffffff;
+}
+
+.container2 .center .content .content2-text h2 {
+	padding-top: 110px;
+	font-size: 36px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	line-height: 1.194;
+}
+
+.container2 .center .content .content2-text p {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	line-height: 1.429;
+	font-weight: 300;
+}
+  
+
+
+
+
+
+
