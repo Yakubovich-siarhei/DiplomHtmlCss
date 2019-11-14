@@ -66,7 +66,7 @@ table {
 .container1 {
 	background-image: url(./images/backround.png);
 	width: 100%;
-	max-width: 1440px;
+	max-width: 1476px;
 	height: 100vh;
 	max-height: 855px;
 	background-repeat: no-repeat;
@@ -517,5 +517,101 @@ table {
 	box-shadow: 0 0 5px #b35202;
 }
 
-
+.container5 {
+	background-image: url(./images/backround_5.png);
+	width: 100%;
+	max-width: 1476px;
+	height: 100vh;
+	max-height: 570px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.905;
+}
   
+
+.container5 .center {
+	width: 1130px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+}
+
+.container5 .center .text {
+	width: 50%;
+}
+
+.container5 .center .text h2 {
+	font-size: 36px;
+	font-family: "Open Sans";
+	color: rgb(240, 240, 240);
+	font-weight: bold;
+	line-height: 1.194;
+	text-align: center;
+	font-weight: 400;
+}
+
+.container5 .center .text .line {
+	background-color: rgb(240, 240, 240);
+	width: 170px;
+	height: 2px;
+}
+
+.container5 .center .text h3 {	
+	padding-top: 82px;	
+	padding-bottom: 32px;
+	font-size: 20px;
+	font-family: "Open Sans";
+	color: rgb(240, 240, 240);
+	line-height: 1.1;
+	text-align: center;
+	font-weight: 400;
+}
+
+.container5 .center .text p {
+	font-size: 16px;
+	font-family: "Open Sans";
+	color: rgb(240, 240, 240);
+	line-height: 1.375;
+	font-weight: 400;
+}
+  
+.container5 .center .next-portrait p {
+	font-size: 16px;
+	font-family: "Open Sans";
+	color: rgb(240, 240, 240);
+	line-height: 1.375;
+	font-weight: 600;
+}
+
+.container5 .center .next-portrait p span {
+	font-weight: 400;
+	color: rgb(255, 126, 38);
+}
+
+.container5 .center .next-portrait {
+	width: 30%;
+	text-align: center;
+}
+
+.container5 .center .next-portrait .buttom-chevron svg {
+	margin-top: 10px;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	border: 2px solid rgb(255, 255, 255);
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
+.container5 .center .next-portrait .buttom-chevron svg:nth-child(1) {
+	margin-right: 30px;
+}
+
+.container5 .center .next-portrait .buttom-chevron svg:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 126, 38);
+	border-color: rgb(255, 126, 38);
+}
