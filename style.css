@@ -219,7 +219,7 @@ table {
 	height: 2px;
 } 
 
-.container2 .center .content div img {
+.container2 .center .content .portrait img {
 	width: 95%;
 	border-radius: 50%;
 }
@@ -614,4 +614,141 @@ table {
 	background-color: rgb(255, 255, 255);
 	color: rgb(255, 126, 38);
 	border-color: rgb(255, 126, 38);
+}
+
+.container6 {
+	background-color: #ff7200;
+	height: 160px;
+	padding-top: 40px;
+} 
+
+.containt6 {
+	width: 1140px;
+	margin-left: 137px;
+}
+
+.foo {
+	text-align: center;
+	position: absolute;
+	display: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* border: 1px solid green;
+	padding:5px 15px;
+	border-radius: 15px; */
+	background-image: url(./images/Tooltip-BG.png);
+	width: 200px;
+	height: 120px; 
+}
+  
+.containt6 .foo h3 {
+	padding-top: 20px;
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+	line-height: 1.286;
+	text-align: center;
+}
+
+.containt6 .foo p {
+	font-size: 12px;
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+	line-height: 1.5;
+	text-align: center;
+}
+
+.containt6 .foo a {
+	font-size: 12px;
+	font-family: "Open Sans";
+	color: rgb(255, 126, 38);
+	text-align: center;
+}
+
+.home-demo .item {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 170px;
+	height: 55px;
+}
+
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.container7 {
+	height: 955px;
+}
+
+.container7 .center {
+	text-align: center;
+}
+
+.container7 .center .content .text-head h2 {
+	padding-top: 110px;
+	font-size: 36px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	line-height: 1.194;
+}
+
+.container7 .center .content .text-head .line {
+	background-color: rgb(102, 102, 102);
+	width: 170px;
+	height: 2px;
+}
+
+.container7 .center .content .text-head p {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	line-height: 1.429;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.container7 .center .content .image-left img {
+	width: 100%;
+}
+
+.container7 .center .content .svg-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.container7 .center .content .svg-center svg {
+	color: rgb(255, 255, 255);
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	background-color: rgb(255, 126, 38);
+	border-radius: 50%;
+}
+
+.container7 .center .content .text-right h3 {
+	font-size: 18px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	line-height: 1.667;
+	text-align: left;
+}
+
+.container7 .center .content .text-right p {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(102, 102, 102);
+	line-height: 1.429;
+	text-align: left;
+}
+
+.container8 {
+	height: 500px;
+	background-color: #303030;
 }
