@@ -56,3 +56,17 @@ $(".item").hover(function(e) {
   titleElem.onclick = function() {
     menuElem.classList.toggle('open');
   };
+
+  let menu2Elem = document.getElementById('sweeties2');
+  let title2Elem = menu2Elem.querySelector('.title2');
+
+  title2Elem.onclick = function() {
+    menu2Elem.classList.toggle('open');
+  };
+
+  let menu3Elem = document.getElementById('sweeties3');
+  let title3Elem = menu3Elem.querySelector('.title3');
+
+  title3Elem.onclick = function() {
+    menu3Elem.classList.toggle('open');
+  };

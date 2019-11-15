@@ -802,12 +802,7 @@ table {
 	padding-top: 15px;
 }
 
-.menu .title {
-	position: relative;
-	right: 0;
-}
-
-.menu .title::before {
+.title::before {
 	content: '+ ';
 	font-size: 23px;
 	color: #f0f0f0;
@@ -816,7 +811,7 @@ table {
 	border-radius: 50%;
 }
 
-.menu.open .title::before {
+.open .title::before {
 	content: '- ';
 	padding: 0px 11px 2px 11px;
 }
