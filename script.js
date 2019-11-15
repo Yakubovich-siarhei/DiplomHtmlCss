@@ -48,3 +48,11 @@ $(".item").hover(function(e) {
   }, function() {
     $($(this).data("tooltip")).hide();
   });
+
+
+  let menuElem = document.getElementById('sweeties');
+  let titleElem = menuElem.querySelector('.title');
+
+  titleElem.onclick = function() {
+    menuElem.classList.toggle('open');
+  };

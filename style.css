@@ -431,7 +431,14 @@ table {
 	height: 555px;
 }
 
-.container4 div div h2 {
+.container4 .center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container4 .center div h2 {
 	margin-top: 152px;
 	font-size: 36px;
 	font-family: "Open Sans";
@@ -441,7 +448,7 @@ table {
 	text-align: center;
 }
 
-.container4 div div .line {
+.container4 .center div .line {
 	background-color: rgb(102, 102, 102);
 	top: 2634px;
 	width: 170px;
@@ -449,7 +456,7 @@ table {
 	border: none;
 }
 
-.container4 div div p {
+.container4 .center div p {
 	margin-top: 76px;
 	font-size: 20px;
 	font-family: "Open Sans";
@@ -457,13 +464,12 @@ table {
 	line-height: 1.5;
 	text-align: center;
 }
-.container4 .center {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 
+.container4 .center div p span {
+	color: #ff7200;
 }
+
+
 
 .container4 .center .buttons {
 	margin-top: 80px;
@@ -751,4 +757,66 @@ table {
 .container8 {
 	height: 500px;
 	background-color: #303030;
+}
+
+.con8,
+.con8 h3,
+.con8 h4,
+.con8 h5 {
+	color: #f0f0f0;
+	font-size: 12px;
+}
+
+.cont8-block-text {
+	display: flex;
+	height: 400px;
+}
+
+
+.images8 {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+}
+
+.headline {
+	text-align: center;
+}
+
+.cont8-text2 {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+}
+
+.text8 {
+	font-size: 13px;
+	font-family: "Open Sans";
+	color: rgb(172, 171, 171);
+	line-height: 1.385;
+	text-align: left;
+	padding-left: 0;
+}
+
+.nav-panel {
+	padding-top: 15px;
+}
+
+.menu .title {
+	position: relative;
+	right: 0;
+}
+
+.menu .title::before {
+	content: '+ ';
+	font-size: 23px;
+	color: #f0f0f0;
+	background-color: #ff7200;
+	padding: 0px 8px 2px 8px;
+	border-radius: 50%;
+}
+
+.menu.open .title::before {
+	content: '- ';
+	padding: 0px 11px 2px 11px;
 }
