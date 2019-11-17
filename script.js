@@ -10,8 +10,8 @@
 function addMenu () {
     document.getElementById("menu").classList.toggle("show");
 } */
-
-/* $(function() {
+/* 
+$(function() {
     // Owl Carousel
     var owl = $(".owl-carousel");
     owl.owlCarousel({
@@ -21,8 +21,7 @@ function addMenu () {
       nav: true
     });
   });
- */
-
+ 
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -39,6 +38,51 @@ function addMenu () {
         }
     }
 })
+ */
+/* $(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+      loop:true, //Зацикливаем слайдер
+      margin:10, //Отступ от картино если выводите больше 1
+      nav:false, //Отключил навигацию
+      autoplay:true, //Автозапуск слайдера
+      smartSpeed:1000, //Время движения слайда
+      autoplayTimeout:2000, //Время смены слайда
+      responsive:{ //Адаптация в зависимости от разрешения экрана
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:6
+          }
+      }
+  });
+});
+ */
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        800:{
+            items:3,
+            nav:true
+        },
+        1000:{
+            items:6,
+            nav:true
+      },
+    }
+})
+});
+
 
 $(".item").hover(function(e) {
     $($(this).data("tooltip")).css({
