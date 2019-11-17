@@ -759,14 +759,59 @@ table {
 	background-color: #303030;
 }
 
-.con8,
-.con8 h3,
-.con8 h4,
-.con8 h5 {
-	color: #f0f0f0;
-	font-size: 12px;
+.container8 .content {
+	padding-top: 56px;
 }
 
+.headline8 {
+	font-size: 24px;
+	font-family: "FontAwesome";
+	color: rgb(255, 255, 255);
+	font-family: "Open Sans";
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+
+.text8 {
+	font-size: 13px;
+	font-family: "Open Sans";
+	color: rgb(172, 171, 171);
+	line-height: 1.385;
+	text-align: left;
+	padding-left: 0;
+	font-weight: 300;
+}
+
+.text8-2 {
+	font-size: 13px;
+	font-family: "Open Sans";
+	color: rgb(172, 171, 171);
+	line-height: 1.385;
+	text-align: left;
+	padding-left: 0;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+
+.textHeadline8 {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+	line-height: 1.429;
+	font-weight: 300;
+}
+
+.textHeadline8-2 {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+	line-height: 1.429;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+  
 .cont8-block-text {
 	display: flex;
 	height: 400px;
@@ -777,10 +822,40 @@ table {
 	display: flex;
 	flex-direction:column;
 	justify-content: space-around;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.images8 img {
+	width: 50px;
 }
 
 .headline {
 	text-align: center;
+}
+
+.year-num-email {
+	font-size: 13px;
+	font-family: "Open Sans";
+	color: rgb(172, 171, 171);
+	line-height: 1.385;
+	text-align: left;
+	padding-left: 0;
+	font-weight: 300;
+}
+
+.con8-span1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.con8-span1 .svg {
+	color: rgb(255, 255, 255);
+	width: 42px;
+	height: 42px;
+	border: 1px solid #f0f0f0;
+	padding: 12px;
+	border-radius: 50%;
 }
 
 .cont8-text2 {
@@ -789,13 +864,11 @@ table {
 	justify-content: space-around;
 }
 
-.text8 {
-	font-size: 13px;
+.text8-time {
+	font-size: 12px;
 	font-family: "Open Sans";
-	color: rgb(172, 171, 171);
+	color: rgb(255, 114, 0);
 	line-height: 1.385;
-	text-align: left;
-	padding-left: 0;
 }
 
 .nav-panel {
@@ -813,5 +886,83 @@ table {
 
 .open .title::before {
 	content: '- ';
-	padding: 0px 11px 2px 11px;
+	padding: 0px 12px 2px 10px;
+}
+
+.input-group8 {
+	padding-top: 20px;
+}
+
+.form8 {
+	padding-top: 15px;
+}
+
+.message {
+	background-image: url(./images/pan-for-cont8.png);
+	background-position-x: 245px;
+	background-position-y: 10px;
+	background-repeat: no-repeat;
+	background-size: 16px;
+}
+
+.btn8 {
+	position: relative;
+	left: 170px;
+	text-transform: uppercase;
+}
+
+footer {
+	height: 60px;
+	background-color: #202020;
+	color: #f0f0f0;
+	font-size: 12px;
+}
+
+footer .center {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .center .left {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .center .left div h5 {
+	margin-left: 30px;
+	align-self: center;
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+	line-height: 3.071;
+	font-weight: 400;
+}
+  
+footer .center .left .logo-footer p {
+	font-size: 12px;
+	font-family: "Source Sans Pro";
+	color: rgb(247, 247, 247);
+	line-height: 3.583;
+	text-align: center;
+} 
+
+footer .center .right {
+	align-self: center;
+	width: 30%;
+}
+
+footer .center .right ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%
+}
+
+footer .center .right ul li {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(172, 171, 171);
+  line-height: 0.001;
+  
 }
