@@ -3,13 +3,21 @@
 //document.querySelector  ищет только первый
 //document.querySelectorAll   находит все
 
-/* document.getElementById("burger").onclick = function() {
+document.getElementById("burger").onclick = function() {
     addMenu();
 }
 
 function addMenu () {
     document.getElementById("menu").classList.toggle("show");
-} */
+} 
+
+document.getElementById("burger2").onclick = function() {
+  addMenu2();
+}
+
+function addMenu2 () {
+  document.getElementById("menu2").classList.toggle("show2");
+} 
 /* 
 $(function() {
     // Owl Carousel
