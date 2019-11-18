@@ -393,9 +393,9 @@ table {
 }
 
 .container3 div .svg1 {
+	color: #f0f0f0;
 	display: none;
-	color: #ff7200;
-	background: #f0f0f0;
+	border: 2px solid #f0f0f0;
 	border-radius: 50%;
 	width: 50px;
 	height: 50px;
@@ -403,7 +403,13 @@ table {
 	top: 80px;
 	left: 118px;
 	padding: 15px;
-}  
+} 
+
+.container3 div svg:hover {
+	color: #ff7200;
+	background: #f0f0f0;
+	border: none;
+}
 
 .container3 div .svg2 {
 	color: #f0f0f0;
@@ -421,12 +427,14 @@ table {
 .container3 div:hover {
 	opacity: 0.7;
 	background-position: 0 -76px;
+	transition: 0.5s;
 } 
 
 .container3 div:nth-child(4):hover,
 .container3 div:nth-child(8):hover {
 	opacity: 0.7;
 	background-position: 0 -105px;
+	transition: 0.5s;
 }
 
 .container3 div:hover p,
@@ -506,30 +514,15 @@ table {
 }
 
 .container4 .center .buttons ul li .button2:hover { 
-	background: rgb(243, 112, 24); 
+	background: none;
+	border: 1px solid #ff7200;
+	color: #ff7200;
 }
 .container4 .center .buttons ul li .button2:active {
-	background: rgb(207, 104, 35);
-	box-shadow: 0 0 5px rgb(151, 74, 23) inset;
-}
-
-.container4 .center .buttons ul li .button3 {
-	text-transform: uppercase;
-	font-weight: 400;
+	background: none;
+	border: 1px solid #ac5004;
 	color: #ff7200;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	text-decoration: none;
-	letter-spacing: 0.5px;
-	padding: 13px 35px 13px;
-	border: 1px solid #ff7200;
-} 
-
-.container4 .center .buttons ul li .button3:hover { 
-	box-shadow: 0 0 5px #b35202;
-}
-.container4 .center .buttons ul li .button3:active {
-	box-shadow: 0 0 5px #b35202;
+	box-shadow: 0 0 5px rgb(151, 74, 23) inset;
 }
 
 .container5 {
@@ -640,6 +633,36 @@ table {
 .containt6 {
 	/* width: 1140px; */
 	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.container6 .containt6 .owl-carousel .owl-nav button.owl-next{
+	left: 55%;
+}
+
+.container6 .containt6 .owl-carousel .owl-nav button.owl-prev {
+	right: 55%;
+}
+
+.container6 .containt6 .owl-carousel .owl-nav button.owl-next,
+.container6 .containt6 .owl-carousel .owl-nav button.owl-prev {
+	font-size: 40px;
+	color: #f1efef;
+	box-sizing: none;
+	top:-65px;
+	position: relative;
+}
+
+.container6 .containt6 .owl-carousel .owl-nav button.owl-next:hover,
+.container6 .containt6 .owl-carousel .owl-nav button.owl-prev:hover {
+	font-size: 40px;
+	color: #b1b0ae;
+	background: none;
+	border: none;
+}
+
+.container6 .containt6 .owl-theme .owl-dots .owl-dot {
+	display: none;
 }
 
 .containt6 .foo {
@@ -1153,8 +1176,7 @@ footer .center .right ul li {
 		display: inherit;
 	}
 
-	.container4 .center .buttons ul li .button2,
-	.container4 .center .buttons ul li .button3 {
+	.container4 .center .buttons ul li .button2 {
 		padding: 0.3em 0.5em 0.3em;
 	}
 
