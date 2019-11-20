@@ -93,7 +93,7 @@ table {
 .container1 .header div:nth-child(2) {
 	width: 15%;
 	margin: 30px 10px;
-
+	height: 90px;
 }
 
 .container1 .header div ul {
@@ -1098,21 +1098,34 @@ footer .center .right ul li {
 	}
 
 	.header .header-navbar-left .show {
-		display: block;
+		float: right;
 	}
 
-	.header div ul li {
+	.header .header-navbar-right .show2 {
+		float: left;
+	}
+
+	.header .header-navbar-left .show,
+	.header .header-navbar-right .show2 {
+		display: table;
+		margin-top: 25px;
+	}
+
+	.header .header-navbar-left .show li,
+	.header .header-navbar-right .show2 li {
+		display: block;
+		height: 32px;
+		text-align: center;
+	}
+
+	/* .header div ul li {
 		display: block;
 		margin-top: 10px;
 		text-align: center;
 	}
-
+ */
 	.header .header-navbar-right {
 		text-align: left;
-	}
-	
-	.header .header-navbar-right .show2 {
-		display: block;
 	}
 
 	.header div:nth-child(2) {
