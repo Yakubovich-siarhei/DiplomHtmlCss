@@ -18,57 +18,7 @@ document.getElementById("burger2").onclick = function() {
 function addMenu2 () {
   document.getElementById("menu2").classList.toggle("show2");
 } 
-/* 
-$(function() {
-    // Owl Carousel
-    var owl = $(".owl-carousel");
-    owl.owlCarousel({
-      items: 6,
-      margin: 32,
-      loop: true,
-      nav: true
-    });
-  });
- 
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:6
-        }
-    }
-})
- */
-/* $(document).ready(function() {
-  $('.owl-carousel').owlCarousel({
-      loop:true, //Зацикливаем слайдер
-      margin:10, //Отступ от картино если выводите больше 1
-      nav:false, //Отключил навигацию
-      autoplay:true, //Автозапуск слайдера
-      smartSpeed:1000, //Время движения слайда
-      autoplayTimeout:2000, //Время смены слайда
-      responsive:{ //Адаптация в зависимости от разрешения экрана
-          0:{
-              items:1
-          },
-          600:{
-              items:3
-          },
-          1000:{
-              items:6
-          }
-      }
-  });
-});
- */
+
 $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
     loop:true,
